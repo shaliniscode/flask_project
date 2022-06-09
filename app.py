@@ -58,42 +58,9 @@ def index():
         return "Code: 404 - City not found"
             
 
-    
+    #Run server
+    if __name__ == '__main__':
+            app.run(debug=True)
 
         
-        #cities = City.query.distinct()
-        
-
-       
-
-        #weather_data = []
-
-        #for city in cities:
-
-        
-        #weather_data.append(weather)
-            
-        
-        
-        
-
-    # name = request.json['name']
-    # description = request.json['description']
-    # price = request.json['price']
-    # qty = request.json['qty']
-
-    # new_product = Product(name, description, price, qty)
-
-    #return r
-    #print (weather)
-
-  
-    
-    
-
-
-        
-
-
-
-#from app import routes
+      
